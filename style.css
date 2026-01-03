@@ -1,0 +1,324 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial Rounded MT Bold', Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: url("assets/IMG_1256.JPG") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .card {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1px;
+  border-radius: 25px;
+  border: #2b36ff dashed;
+}
+
+.home .inner-card {
+  background: white;
+  padding: 30px 25px;
+  border-radius: 20px;
+  border: 3px solid #2b36ff;
+  text-align: center;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home .snoopy {
+  width: 230px;
+  margin-bottom: 15px;
+  border: solid 3px #2b36ff;
+  border-radius: 15px;
+}
+
+.home h1 {
+  color: #1f2cff;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.home .since {
+  color: #1f2cff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.home .hint {
+  font-size: 16px;
+  color: #1f2cff;
+  margin-bottom: 20px;
+}
+
+.home .next-btn {
+  background: #1f2cff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 13px 27px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.home .next-btn:hover {
+  background: #0f1bcc;
+}
+
+.music-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #1f2cff;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.envelope body {
+  height: 100vh;
+  background: url("/assets/IMG_1256.JPG") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.envelope .card {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1px;
+  border-radius: 25px;
+  border: #2b36ff dashed;
+}
+
+.envelope .inner-card {
+  background: white;
+  padding: 30px 25px;
+  border-radius: 20px;
+  border: 3px solid #2b36ff;
+  text-align: center;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.envelope .snoopy {
+  width: 350px;
+  margin-bottom: 15px;
+  border: solid 3px #2b36ff;
+  border-radius: 15px;
+}
+
+.envelope h1 {
+  color: #1f2cff;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.envelope .since {
+  color: #1f2cff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.envelope .hint {
+  font-size: 16px;
+  color: #1f2cff;
+  margin-bottom: 20px;
+}
+
+.envelope .next-btn {
+  background: #1f2cff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 13px 27px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.envelope .next-btn:hover {
+  background: #0f1bcc;
+}
+
+.abriu body {
+  padding-top: 40px;
+  background: url("/assets/IMG_1256.JPG") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.abriu .card {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1px;
+  border-radius: 25px;
+  border: #2b36ff dashed;
+  height:auto;
+  margin-top: 30px;
+}
+
+.abriu .inner-card {
+  background: white;
+  padding: 30px 25px;
+  border-radius: 20px;
+  border: 3px solid #2b36ff;
+  text-align: center;
+  width: 400px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.abriu .snoopy {
+  width: 350px;
+  border: solid 3px #2b36ff;
+  border-radius: 15px;
+  
+}
+
+.abriu .mensagem {
+    width: 350px;
+    border: 3px solid #2b36ff;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-block: 30px;
+    
+}
+.abriu .mensagem div {
+    padding-inline: 20px;
+}
+
+.abriu h1 {
+  color: #1f2cff;
+  font-size: 32px;
+ 
+}
+
+.abriu p{
+     margin-top: 20px;
+     text-align: left;
+     font-size: 16px;
+     color: #2b36ff;
+     font-weight: 550;
+     font-family: "Caveat", cursive;
+}
+
+.abriu .since {
+  color: #1f2cff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.abriu .hint {
+  font-size: 16px;
+  color: #1f2cff;
+  margin-bottom: 20px;
+}
+
+.abriu .next-btn {
+  background: #1f2cff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 13px 27px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+   margin-top: 20px;
+}
+
+.abriu .next-btn:hover {
+  background: #0f1bcc;
+}
+
+.fechou body {
+  min-height: 100vh;
+  background: url("/assets/IMG_1256.JPG") center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fechou .card {
+  background: rgba(255, 255, 255, 0.7);
+  padding: 1px;
+  border-radius: 25px;
+  border: #2b36ff dashed;
+}
+
+.fechou .inner-card {
+  background: white;
+  padding: 30px 25px;
+  border-radius: 20px;
+  border: 3px solid #2b36ff;
+  text-align: center;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.fechou .snoopy {
+  width: 230px;
+  margin-bottom: 15px;
+  border: solid 3px #2b36ff;
+  border-radius: 15px;
+}
+
+.fechou h1 {
+  color: #1f2cff;
+  font-size: 32px;
+  margin-bottom: 5px;
+}
+
+.fechou .since {
+  color: #1f2cff;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.fechou .hint {
+  font-size: 16px;
+  color: #1f2cff;
+  margin-bottom: 20px;
+}
+
+.fechou .next-btn {
+  background: #1f2cff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 13px 27px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.fechou .next-btn:hover {
+  background: #0f1bcc;
+}
+
+
+
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js" defer></script>
+    <title>My love for you</title>
+</head>
+<body>
+
+    <audio id="music" src="assets/Mac DeMarco __ My Kind Of Woman - CapturedTracks.mp3" loop></audio>
+    <button class="music-btn" onclick="toggleMusic()">♫</button>
+
+    <div id="app"></div>
+  
+    <script>
+        
+        //música
+        const app = document.getElementById("app");
+        const music = document.getElementById("music");
+
+        function toggleMusic() {
+            music.paused ? music.play() : music.pause();
+        }
+
+        function pageHome(){
+            app.className = "home";
+            app.innerHTML = `
+                <div class="card">
+                    <div class="inner-card">
+
+                        <img src="assets/IMG_1254.JPG" class="snoopy" alt="Snoopy">
+
+                        <h1>My love for you</h1>
+                        <p class="since">(Since 2017)</p>
+
+                        <p class="hint">Aperte no próximo botão!! ♥</p>
+
+                        <button class="next-btn" onclick="pageEnvelope()">Próximo!! :)</button>
+                    </div>
+                </div>
+            `
+          
+        }
+
+        function pageEnvelope(){
+            app.className = "envelope";
+            app.innerHTML = `
+                <div class="card">
+                    <div class="inner-card">
+
+                        <img src="/assets/loai2m7ynv.png" class="snoopy" alt="Snoopy">
+
+                        <h1>Você quer abrir??</h1>
+
+                        <p class="hint">( ◡́.◡̀)♥(^◡^ )</p>
+
+                        <div class="escolha">
+                            <button class="next-btn" onclick="pageAbriu()">Claro!!!</button>
+                            <button class="next-btn" onclick="pageFechou()">Não vlw!</button>
+                        </div>
+      
+                    </div>
+                </div>
+            `
+        }
+
+        function pageAbriu() {
+            app.className = "abriu";
+            app.innerHTML = `
+                <div class="card">    
+                <div class="inner-card">
+
+                <img src="/assets/copy_1ECE523D-5690-4B0B-AA21-82ECEC0E0402.gif" class="snoopy" alt="Snoopy">
+      
+
+        
+        
+        <div class="mensagem">
+            <h1>To the loml</h1>
+            
+            <div>
+                <p>
+                To escrevendo isso de madrugada pq to com muita saudade, eu tinha escrito um texto antes desse mas perdi pq o site era pago kkkk, so queria te dizer que te amo muito e que a distância ta muito ruim na vejo a hora de te ver novamente, infelizmente vai ser quase voltando as aulas isso se ja nao tiverem voltado.<br><br>
+
+                Outra coisa, nao deixa isso fazer vc duvidar do meu amor por vc ate pq o que eu sinto por voce é muito forte é algo inimaginável e inexplicável, algo que nao vai acabar e sim durar pra sempre, vamos fazer nosso relacionamento durar pro resto das nossas vidas.<br><br>
+
+                TE AMO MUITO MEU BEM!!
+            </p>
+            </div>
+        </div>
+        
+        <button class="next-btn" onclick="pageHome()">Ver de novo</button>
+    
+      
+    </div>
+  </div>
+            `
+        }
+
+        function pageFechou(){
+            app.className = "fechou";
+            app.innerHTML = `
+                 <div class="card">
+                    <div class="inner-card">
+
+                        <img src="/assets/IMG_1255 (1).JPG" class="snoopy" alt="Snoopy">
+
+                        <h1>VAI ABRIR SIM!!</h1>
+                        <p class="since">😡😡🖕🖕</p>
+
+
+                        <button class="next-btn" onclick="pageEnvelope()">Voltar 😒😒</button>
+                    </div>
+                </div>
+            `
+        }
+
+        pageHome()
+        
+    </script>
+
+    
+
+</body>
+</html>
