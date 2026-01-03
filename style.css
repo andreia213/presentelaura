@@ -26,7 +26,7 @@ body {
   border-radius: 20px;
   border: 3px solid #2b36ff;
   text-align: center;
-  width: 400px;
+  width: 350px;
   height: 500px;
   display: flex;
   align-items: center;
@@ -109,7 +109,7 @@ body {
   border-radius: 20px;
   border: 3px solid #2b36ff;
   text-align: center;
-  width: 400px;
+  width: 350px;
   height: 500px;
   display: flex;
   align-items: center;
@@ -118,7 +118,7 @@ body {
 }
 
 .envelope .snoopy {
-  width: 350px;
+  width: 330px;
   margin-bottom: 15px;
   border: solid 3px #2b36ff;
   border-radius: 15px;
@@ -180,7 +180,7 @@ body {
   border-radius: 20px;
   border: 3px solid #2b36ff;
   text-align: center;
-  width: 400px;
+  width: 350px;
   height: auto;
   display: flex;
   align-items: center;
@@ -189,14 +189,14 @@ body {
 }
 
 .abriu .snoopy {
-  width: 350px;
+  width: 300px;
   border: solid 3px #2b36ff;
   border-radius: 15px;
   
 }
 
 .abriu .mensagem {
-    width: 350px;
+    width: 300px;
     border: 3px solid #2b36ff;
     border-radius: 15px;
     margin-top: 20px;
@@ -271,7 +271,7 @@ body {
   border-radius: 20px;
   border: 3px solid #2b36ff;
   text-align: center;
-  width: 400px;
+  width: 350px;
   height: 500px;
   display: flex;
   align-items: center;
