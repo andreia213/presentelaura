@@ -1,7 +1,7 @@
 const musicBtn = document.querySelector(".music-btn");
 
 music.addEventListener("play", () => {
-    musicBtn.textContent = "⏸";
+    musicBtn.textContent = "❚❚";
 });
 
 music.addEventListener("pause", () => {
